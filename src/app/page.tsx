@@ -1,11 +1,10 @@
+import MegaMenu from "@/components/Category/Menu";
+
 export default function Home() {
   return (
     <>
       <main>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-        perspiciatis, quos vero accusamus possimus est corrupti nihil, dolorem
-        unde natus provident beatae. Eligendi atque nobis quasi earum explicabo
-        facilis quisquam!
+        <MegaMenu />
       </main>
     </>
   );
