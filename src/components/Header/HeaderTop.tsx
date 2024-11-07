@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const HeaderTop = () => {
   return (
     <div>
@@ -16,15 +18,15 @@ const HeaderTop = () => {
 
           {/* Right Section */}
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-700 hover:text-orange-600">
+            <div className="text-gray-700 hover:text-orange-600">
               Become a Seller
-            </a>
-            <a href="#" className="text-gray-700 hover:text-orange-600">
+            </div>
+            <div className="text-gray-700 hover:text-orange-600">
               Order Track
-            </a>
-            <a href="#" className="text-orange-600 font-medium">
+            </div>
+            <Link href="/SignUp" className="text-orange-600 font-medium">
               Sign Up / Login
-            </a>
+            </Link>
           </div>
         </div>
       </div>
